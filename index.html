@@ -169,36 +169,28 @@ const engine = new Engine(GODOT_CONFIG);
 
 	if (missing.length !== 0) {
 		if (GODOT_CONFIG['serviceWorker'] && GODOT_CONFIG['ensureCrossOriginIsolationHeaders'] && 'serviceWorker' in navigator) {
-			let serviceWorkerRegistrationPromise;
-			try {
-				serviceWorkerRegistrationPromise = navigator.serviceWorker.getRegistration();
-			} catch (err) {
-				serviceWorkerRegistrationPromise = Promise.reject(new Error('Service worker registration failed.'));
-			}
-			// There's a chance that installing the service worker would fix the issue
-			Promise.race([
-				serviceWorkerRegistrationPromise.then((registration) => {
-					if (registration != null) {
-						return Promise.reject(new Error('Service worker already exists.'));
-					}
-					return registration;
-				}).then(() => engine.installServiceWorker()),
-				// For some reason, `getRegistration()` can stall
-				new Promise((resolve) => {
-					setTimeout(() => resolve(), 2000);
-				}),
-			]).then(() => {
-				// Reload if there was no error.
+			setStatusMode('notice');
+			setStatusNotice('正在准备网页运行环境，请稍候…');
+			(async () => {
+				const key = 'ice-web-isolation-attempt';
+				const attempts = Number(sessionStorage.getItem(key) || '0');
+				if (attempts >= 2) throw new Error('浏览器未能启用游戏所需环境。请使用新版 Chrome、Edge 或 Firefox 打开此网址。');
+				const registration = await navigator.serviceWorker.getRegistration();
+				if (!registration) await engine.installServiceWorker();
+				await Promise.race([
+					navigator.serviceWorker.ready,
+					new Promise((_, reject) => setTimeout(() => reject(new Error('网页环境准备超时，请刷新重试。')), 30000)),
+				]);
+				sessionStorage.setItem(key, String(attempts + 1));
 				window.location.reload();
-			}).catch((err) => {
-				console.error('Error while registering service worker:', err);
-			});
+			})().catch(displayFailureNotice);
 		} else {
 			// Display the message as usual
 			const missingMsg = 'Error\nThe following features required to run Godot projects on the Web are missing:\n';
 			displayFailureNotice(missingMsg + missing.join('\n'));
 		}
 	} else {
+		sessionStorage.removeItem('ice-web-isolation-attempt');
 		setStatusMode('progress');
 		engine.startGame({
 			'onProgress': function (current, total) {
