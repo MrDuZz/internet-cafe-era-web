@@ -1,9 +1,13 @@
 {
-  "source_commit": "7299e9941db0ccc6cf1da5a1152d54016de155af",
+  "source_commit": "90c0ff9557a316d8b2fc7b4dfce13d9c16a43cec",
   "checkpoint": "checkpoint-2026-10-16",
   "engine": "Godot 4.6.2 standard / Web threaded",
   "built_date": "2026-10-16",
   "files": {
+    "index.144x144.png.import": {
+      "bytes": 960,
+      "sha256": "324c2fe9d00216a0346224ed661751ca9756bcf285244513c0bcbe6c242cb874"
+    },
     "index.apple-touch-icon.png": {
       "bytes": 2382,
       "sha256": "61584d5c60f2d4a6c5c274fcc612f1400bdf205ae485cbbcffc62a467006c0d7"
@@ -18,7 +22,7 @@
     },
     "index.html": {
       "bytes": 5493,
-      "sha256": "add2b4249dc30007e7a1bf1e53287543e0a3af9af247bb1dcc48774483d02a45"
+      "sha256": "80a51f38d1b39727833a56b753ebce4e6249381df0e450e9c60368307fad2f3d"
     },
     "index.png": {
       "bytes": 56869,
@@ -34,19 +38,31 @@
     },
     "index.service.worker.js": {
       "bytes": 5831,
-      "sha256": "0bd01eb290996076bd51325a5ef1d01dbab7577f9e7b7fa7f9f3018b412c3343"
+      "sha256": "7ea0cc23f6288698e5517b68faeaba5ca1395d822214ab6af4e973d620eb731f"
     },
     "index.audio.worklet.js": {
       "bytes": 7298,
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
+    "index.apple-touch-icon.png.import": {
+      "bytes": 987,
+      "sha256": "790f982636d25301f6606ea3501460f1a2355fde48bbf409a2f1a68112dd4798"
+    },
     "index.144x144.png": {
       "bytes": 1966,
       "sha256": "4d3d9f353464c4f75f5068c86cc55f7b7955accba83dd1820e86d12e3c363348"
     },
+    "index.180x180.png.import": {
+      "bytes": 960,
+      "sha256": "385b3458f0fd22a62598af505bcbec7168f6cf4fdcad3d245860a5fdbffda241"
+    },
     "index.js": {
       "bytes": 358439,
       "sha256": "20ef12b0ebc98733e9a8c66d6429d4372f6a36623c0b08e6cd8fdeb40bc3b967"
+    },
+    "index.icon.png.import": {
+      "bytes": 950,
+      "sha256": "ffa4d3280cb6a3e106d84805ced4576d95a955f6b61ad7be0cf0da23534d6f71"
     },
     "index.audio.position.worklet.js": {
       "bytes": 2973,
@@ -56,14 +72,23 @@
       "bytes": 330,
       "sha256": "fd55e799eac794e51eb6d853fb215be48f4eb9b3b8a8d827f34fdf778863d183"
     },
+    "index.512x512.png.import": {
+      "bytes": 959,
+      "sha256": "0229163c1df6a9b917a0416bad73a81c34fd7a5b8f8caa6051725b7854842b9a"
+    },
     "index.180x180.png": {
       "bytes": 2382,
       "sha256": "61584d5c60f2d4a6c5c274fcc612f1400bdf205ae485cbbcffc62a467006c0d7"
     },
     "index.pck": {
-      "bytes": 84134428,
-      "sha256": "c8feecbeb6d11b25f80b9d6b2a321a975238c2752011d2c492de7f5616e8c10b"
+      "bytes": 62092824,
+      "sha256": "06164265d9f5aa9cac6860e0182404f266c957592fea1d92c1755958050b9839"
+    },
+    "index.png.import": {
+      "bytes": 935,
+      "sha256": "9555145fdb353fe429d6e985118956242f1f3eaa3e8b895ad45c0ac9b34f2575"
     }
   },
-  "web_loader_revision": "wait-for-service-worker-activation-v1"
+  "web_loader_revision": "content-hashed-cache-v2",
+  "optimization": "128kbps-music-current-help-only"
 }
