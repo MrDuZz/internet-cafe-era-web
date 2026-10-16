@@ -1,5 +1,5 @@
 {
-  "source_commit": "90c0ff9557a316d8b2fc7b4dfce13d9c16a43cec",
+  "source_commit": "d216a0ecd5df88f0f80f389d44bb542dda1a7fd2",
   "checkpoint": "checkpoint-2026-10-16",
   "engine": "Godot 4.6.2 standard / Web threaded",
   "built_date": "2026-10-16",
@@ -18,7 +18,7 @@
     },
     "index.html": {
       "bytes": 5493,
-      "sha256": "80a51f38d1b39727833a56b753ebce4e6249381df0e450e9c60368307fad2f3d"
+      "sha256": "685a7ed35bf14d554d4e1d9edb9475bab7cdf1a712a2e90493658aae368b9935"
     },
     "index.png": {
       "bytes": 56869,
@@ -34,7 +34,7 @@
     },
     "index.service.worker.js": {
       "bytes": 5831,
-      "sha256": "7ea0cc23f6288698e5517b68faeaba5ca1395d822214ab6af4e973d620eb731f"
+      "sha256": "f37e4ff04cca11416ea3ba2dec5a5823a59482bff745f94ef322876eed9339c4"
     },
     "index.audio.worklet.js": {
       "bytes": 7298,
@@ -61,10 +61,14 @@
       "sha256": "61584d5c60f2d4a6c5c274fcc612f1400bdf205ae485cbbcffc62a467006c0d7"
     },
     "index.pck": {
-      "bytes": 62092824,
-      "sha256": "06164265d9f5aa9cac6860e0182404f266c957592fea1d92c1755958050b9839"
+      "bytes": 62099872,
+      "sha256": "1ea3a73d371e39ede1527f27e0c6eb70fa652862e28c0898ce16dd12b944a5f1"
     }
   },
   "web_loader_revision": "content-hashed-cache-v2",
-  "optimization": "128kbps-music-current-help-only"
+  "optimization": "128kbps-music-current-help-only",
+  "source_worktree_dirty": true,
+  "built_at": "2026-10-16T11:56:33.756187+00:00",
+  "release_label": "20261016-product-sku-privacy-preview",
+  "notes": "Includes working-tree product-specific orders and privacy settings. Android-only ad test SDK is not included in Web. No gameplay ad rewards."
 }
