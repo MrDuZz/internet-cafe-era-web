@@ -1,0 +1,68 @@
+{
+  "source_commit": "7299e9941db0ccc6cf1da5a1152d54016de155af",
+  "checkpoint": "checkpoint-2026-10-16",
+  "engine": "Godot 4.6.2 standard / Web threaded",
+  "built_date": "2026-10-16",
+  "files": {
+    "index.apple-touch-icon.png": {
+      "bytes": 2382,
+      "sha256": "61584d5c60f2d4a6c5c274fcc612f1400bdf205ae485cbbcffc62a467006c0d7"
+    },
+    "index.wasm": {
+      "bytes": 37013224,
+      "sha256": "09c67f682ca15f7b8a462870fca21b478ea15f1ee9a1611d174737e5fcc010ce"
+    },
+    "index.icon.png": {
+      "bytes": 3454,
+      "sha256": "e132c2b5327be5d16ba4c86348e6e8f919ecacc056f7bd66a188e529eee5c6ec"
+    },
+    "index.html": {
+      "bytes": 5538,
+      "sha256": "df763548292b8a77ffcd806a5da3fb1cddb906585c5d7a816fed64f5178a4ba3"
+    },
+    "index.png": {
+      "bytes": 56869,
+      "sha256": "b4a0028ed6b9f2f4e95ca5c8e9843e2666c959365b069fded6dd8a2459901aa9"
+    },
+    "index.offline.html": {
+      "bytes": 971,
+      "sha256": "b0a5d443e78f58717adac780bac91c1431bfa3b801c41f4707d507fb5ad2e47f"
+    },
+    "index.512x512.png": {
+      "bytes": 3454,
+      "sha256": "e132c2b5327be5d16ba4c86348e6e8f919ecacc056f7bd66a188e529eee5c6ec"
+    },
+    "index.service.worker.js": {
+      "bytes": 5827,
+      "sha256": "a9537bea25c019d09b51158d50d0a9cd09dddd448f0763c3434cf0d29fc9acd1"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.144x144.png": {
+      "bytes": 1966,
+      "sha256": "4d3d9f353464c4f75f5068c86cc55f7b7955accba83dd1820e86d12e3c363348"
+    },
+    "index.js": {
+      "bytes": 358439,
+      "sha256": "20ef12b0ebc98733e9a8c66d6429d4372f6a36623c0b08e6cd8fdeb40bc3b967"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.manifest.json": {
+      "bytes": 330,
+      "sha256": "fd55e799eac794e51eb6d853fb215be48f4eb9b3b8a8d827f34fdf778863d183"
+    },
+    "index.180x180.png": {
+      "bytes": 2382,
+      "sha256": "61584d5c60f2d4a6c5c274fcc612f1400bdf205ae485cbbcffc62a467006c0d7"
+    },
+    "index.pck": {
+      "bytes": 84134428,
+      "sha256": "c8feecbeb6d11b25f80b9d6b2a321a975238c2752011d2c492de7f5616e8c10b"
+    }
+  }
+}
