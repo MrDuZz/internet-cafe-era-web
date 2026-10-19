@@ -1,26 +1,42 @@
 {
-  "source_commit": "d216a0ecd5df88f0f80f389d44bb542dda1a7fd2",
+  "source_commit": "2fd4031714470891486ca945c29851d2564fb164",
   "source_worktree_dirty": true,
-  "release_label": "20261019-world-polish",
-  "built_at": "2026-10-19T06:17:49.713517+00:00",
+  "release_label": "20261019-player-ui",
+  "built_at": "2026-10-19T08:50:42.202903+00:00",
   "save_version": 26,
   "engine": "Godot 4.6.2 standard / Web threaded",
   "files": {
     "index.144x144.png": {
-      "bytes": 47189,
-      "sha256": "825793be24af7702db82fc91f57fafa95255bc5c9ff681b3d971f64e4584ab27"
+      "bytes": 48795,
+      "sha256": "7a2be0a9bc5a775eabb69c903bcb80e868ec48b6b162bec856ca8cb87cebbb25"
+    },
+    "index.144x144.png.import": {
+      "bytes": 960,
+      "sha256": "324c2fe9d00216a0346224ed661751ca9756bcf285244513c0bcbe6c242cb874"
     },
     "index.180x180.png": {
-      "bytes": 69691,
-      "sha256": "f5ed1234f7fb5c578b4a58573578735278e18258cce3a0c73a4bcc840d4d4c17"
+      "bytes": 72318,
+      "sha256": "295ac7b36f44bc79bb3f833a97656c4eeec67c3cf0c8d1d0083d04941fff9b45"
+    },
+    "index.180x180.png.import": {
+      "bytes": 960,
+      "sha256": "385b3458f0fd22a62598af505bcbec7168f6cf4fdcad3d245860a5fdbffda241"
     },
     "index.512x512.png": {
-      "bytes": 425315,
-      "sha256": "89b2eced0238f6e4d68e9e285f107b5a2c35cc8111f0639867ca77913736c781"
+      "bytes": 439757,
+      "sha256": "ce21777395f0c9f09c61eb43bcec5bc4a037f32193cb3c1a35451a0f390dfcfe"
+    },
+    "index.512x512.png.import": {
+      "bytes": 959,
+      "sha256": "0229163c1df6a9b917a0416bad73a81c34fd7a5b8f8caa6051725b7854842b9a"
     },
     "index.apple-touch-icon.png": {
-      "bytes": 69691,
-      "sha256": "f5ed1234f7fb5c578b4a58573578735278e18258cce3a0c73a4bcc840d4d4c17"
+      "bytes": 72318,
+      "sha256": "295ac7b36f44bc79bb3f833a97656c4eeec67c3cf0c8d1d0083d04941fff9b45"
+    },
+    "index.apple-touch-icon.png.import": {
+      "bytes": 987,
+      "sha256": "790f982636d25301f6606ea3501460f1a2355fde48bbf409a2f1a68112dd4798"
     },
     "index.audio.position.worklet.js": {
       "bytes": 2973,
@@ -32,11 +48,15 @@
     },
     "index.html": {
       "bytes": 5493,
-      "sha256": "464aedfd06114d434c7af4bfd7bf894894b33166965c179f16e065e0d56cba9f"
+      "sha256": "043f14f3bd74022b407d9104691aab12caebfd957576f17d17cf0a14e7ba48cc"
     },
     "index.icon.png": {
-      "bytes": 425315,
-      "sha256": "89b2eced0238f6e4d68e9e285f107b5a2c35cc8111f0639867ca77913736c781"
+      "bytes": 439757,
+      "sha256": "ce21777395f0c9f09c61eb43bcec5bc4a037f32193cb3c1a35451a0f390dfcfe"
+    },
+    "index.icon.png.import": {
+      "bytes": 950,
+      "sha256": "ffa4d3280cb6a3e106d84805ced4576d95a955f6b61ad7be0cf0da23534d6f71"
     },
     "index.js": {
       "bytes": 358439,
@@ -51,16 +71,20 @@
       "sha256": "b0a5d443e78f58717adac780bac91c1431bfa3b801c41f4707d507fb5ad2e47f"
     },
     "index.pck": {
-      "bytes": 64229016,
-      "sha256": "7b26f9c8377479ffc093bb74841c0d76a38cf77b07717622972f156ddb2fa164"
+      "bytes": 64383368,
+      "sha256": "174a90879577be04627f44867a0f687fa371aaaf462816e71cc6e6800136f6b5"
     },
     "index.png": {
       "bytes": 56366,
       "sha256": "f2bc413de4bfb8a7003e1d157cf3005c29e2b10a79bccbfabb0560d470fefeaa"
     },
+    "index.png.import": {
+      "bytes": 935,
+      "sha256": "9555145fdb353fe429d6e985118956242f1f3eaa3e8b895ad45c0ac9b34f2575"
+    },
     "index.service.worker.js": {
       "bytes": 5831,
-      "sha256": "e6391c851daa92ab286e915c5a22f3db08c2d33e4df7dfb7977171c1ab37b130"
+      "sha256": "f622e3f30df19eb9758cdd3654e6f269585b33bedbf4104b4239c96235425efc"
     },
     "index.wasm": {
       "bytes": 37013224,
