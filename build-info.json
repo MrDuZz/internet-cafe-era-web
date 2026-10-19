@@ -10,33 +10,17 @@
       "bytes": 48795,
       "sha256": "7a2be0a9bc5a775eabb69c903bcb80e868ec48b6b162bec856ca8cb87cebbb25"
     },
-    "index.144x144.png.import": {
-      "bytes": 960,
-      "sha256": "324c2fe9d00216a0346224ed661751ca9756bcf285244513c0bcbe6c242cb874"
-    },
     "index.180x180.png": {
       "bytes": 72318,
       "sha256": "295ac7b36f44bc79bb3f833a97656c4eeec67c3cf0c8d1d0083d04941fff9b45"
-    },
-    "index.180x180.png.import": {
-      "bytes": 960,
-      "sha256": "385b3458f0fd22a62598af505bcbec7168f6cf4fdcad3d245860a5fdbffda241"
     },
     "index.512x512.png": {
       "bytes": 439757,
       "sha256": "ce21777395f0c9f09c61eb43bcec5bc4a037f32193cb3c1a35451a0f390dfcfe"
     },
-    "index.512x512.png.import": {
-      "bytes": 959,
-      "sha256": "0229163c1df6a9b917a0416bad73a81c34fd7a5b8f8caa6051725b7854842b9a"
-    },
     "index.apple-touch-icon.png": {
       "bytes": 72318,
       "sha256": "295ac7b36f44bc79bb3f833a97656c4eeec67c3cf0c8d1d0083d04941fff9b45"
-    },
-    "index.apple-touch-icon.png.import": {
-      "bytes": 987,
-      "sha256": "790f982636d25301f6606ea3501460f1a2355fde48bbf409a2f1a68112dd4798"
     },
     "index.audio.position.worklet.js": {
       "bytes": 2973,
@@ -53,10 +37,6 @@
     "index.icon.png": {
       "bytes": 439757,
       "sha256": "ce21777395f0c9f09c61eb43bcec5bc4a037f32193cb3c1a35451a0f390dfcfe"
-    },
-    "index.icon.png.import": {
-      "bytes": 950,
-      "sha256": "ffa4d3280cb6a3e106d84805ced4576d95a955f6b61ad7be0cf0da23534d6f71"
     },
     "index.js": {
       "bytes": 358439,
@@ -77,10 +57,6 @@
     "index.png": {
       "bytes": 56366,
       "sha256": "f2bc413de4bfb8a7003e1d157cf3005c29e2b10a79bccbfabb0560d470fefeaa"
-    },
-    "index.png.import": {
-      "bytes": 935,
-      "sha256": "9555145fdb353fe429d6e985118956242f1f3eaa3e8b895ad45c0ac9b34f2575"
     },
     "index.service.worker.js": {
       "bytes": 5831,
