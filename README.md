@@ -1,7 +1,7 @@
 # Internet Cafe Era — web preview
 
-Build: 20261019-world-polish
+Build: 20261020-taptap-venue-guidance
 
 https://mrduzz.github.io/internet-cafe-era-web/
 
-Approved burgundy snack shelf, five frameless glass activity displays, refreshed startup/help images and registered interaction/navigation geometry. Built from the current main working tree including uncommitted work.
+Normal player build from codex/taptap, including current working-tree fixes. Adds clear esports venue unlock requirements, installed PC counts, expansion and targeted purchase shortcuts. TapTap channel: Google functionality and development controls hidden. No stress fixtures.
