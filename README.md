@@ -1,9 +1,7 @@
-# 网吧纪元：玩家 — 网页试玩
+# Internet Cafe Era — web preview
 
-2026-10-18 最新工作区版本，包含 Save26 存档兼容加固。构建包含未提交的开发改动，产物校验见 build-info.json。
+Build: 20261019-world-polish
 
-浏览器需支持 WebGL2、WebAssembly、Service Worker 与 SharedArrayBuffer。首次加载可能自动刷新一次。网页存档仅保存在当前浏览器，与 Android 不互通；清除网站数据会删除网页存档。
+https://mrduzz.github.io/internet-cafe-era-web/
 
-本仓库仅发布游戏导出产物，不发布私有源代码历史。开发试玩版，不代表正式商店或真机验收通过。网页版不含 Android 原生广告 SDK。
-
-浏览器存储仍需长期验证，请勿将网页试玩作为唯一存档副本。
+Approved burgundy snack shelf, five frameless glass activity displays, refreshed startup/help images and registered interaction/navigation geometry. Built from the current main working tree including uncommitted work.

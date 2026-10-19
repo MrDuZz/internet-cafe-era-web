@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = 'pages-1ac6948e45d751ae';
+const CACHE_VERSION = 'pages-47d15fb2f126296c';
 /** @type {string} */
 const CACHE_PREFIX = 'InternetCafeEra-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;

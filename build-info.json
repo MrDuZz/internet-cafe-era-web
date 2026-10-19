@@ -1,71 +1,70 @@
 {
   "source_commit": "d216a0ecd5df88f0f80f389d44bb542dda1a7fd2",
   "source_worktree_dirty": true,
-  "release_label": "20261018-save26",
-  "built_at": "2026-10-18T13:30:45.387110+00:00",
+  "release_label": "20261019-world-polish",
+  "built_at": "2026-10-19T06:17:49.713517+00:00",
   "save_version": 26,
   "engine": "Godot 4.6.2 standard / Web threaded",
   "files": {
-    "index.apple-touch-icon.png": {
-      "bytes": 69691,
-      "sha256": "f5ed1234f7fb5c578b4a58573578735278e18258cce3a0c73a4bcc840d4d4c17"
-    },
-    "index.wasm": {
-      "bytes": 37013224,
-      "sha256": "09c67f682ca15f7b8a462870fca21b478ea15f1ee9a1611d174737e5fcc010ce"
-    },
-    "index.icon.png": {
-      "bytes": 425315,
-      "sha256": "89b2eced0238f6e4d68e9e285f107b5a2c35cc8111f0639867ca77913736c781"
-    },
-    "index.html": {
-      "bytes": 5493,
-      "sha256": "571793aa6eb5ae1d6ffdfb731893df1f39ca59834c8a14e1a01ee35badb77a42"
-    },
-    "index.png": {
-      "bytes": 56577,
-      "sha256": "6840d2bbac997ba4f6c6765539384d183cac456fd3bad432711b8cbe919bf16d"
-    },
-    "index.offline.html": {
-      "bytes": 971,
-      "sha256": "b0a5d443e78f58717adac780bac91c1431bfa3b801c41f4707d507fb5ad2e47f"
-    },
-    "index.512x512.png": {
-      "bytes": 425315,
-      "sha256": "89b2eced0238f6e4d68e9e285f107b5a2c35cc8111f0639867ca77913736c781"
-    },
-    "index.service.worker.js": {
-      "bytes": 5831,
-      "sha256": "873d53ec264961db80a36b7ed445ac17ab2af422e07c7f1bb163a109c492fe13"
-    },
-    "index.audio.worklet.js": {
-      "bytes": 7298,
-      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
-    },
     "index.144x144.png": {
       "bytes": 47189,
       "sha256": "825793be24af7702db82fc91f57fafa95255bc5c9ff681b3d971f64e4584ab27"
-    },
-    "index.js": {
-      "bytes": 358439,
-      "sha256": "20ef12b0ebc98733e9a8c66d6429d4372f6a36623c0b08e6cd8fdeb40bc3b967"
-    },
-    "index.audio.position.worklet.js": {
-      "bytes": 2973,
-      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
-    },
-    "index.manifest.json": {
-      "bytes": 330,
-      "sha256": "fd55e799eac794e51eb6d853fb215be48f4eb9b3b8a8d827f34fdf778863d183"
     },
     "index.180x180.png": {
       "bytes": 69691,
       "sha256": "f5ed1234f7fb5c578b4a58573578735278e18258cce3a0c73a4bcc840d4d4c17"
     },
+    "index.512x512.png": {
+      "bytes": 425315,
+      "sha256": "89b2eced0238f6e4d68e9e285f107b5a2c35cc8111f0639867ca77913736c781"
+    },
+    "index.apple-touch-icon.png": {
+      "bytes": 69691,
+      "sha256": "f5ed1234f7fb5c578b4a58573578735278e18258cce3a0c73a4bcc840d4d4c17"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.html": {
+      "bytes": 5493,
+      "sha256": "464aedfd06114d434c7af4bfd7bf894894b33166965c179f16e065e0d56cba9f"
+    },
+    "index.icon.png": {
+      "bytes": 425315,
+      "sha256": "89b2eced0238f6e4d68e9e285f107b5a2c35cc8111f0639867ca77913736c781"
+    },
+    "index.js": {
+      "bytes": 358439,
+      "sha256": "20ef12b0ebc98733e9a8c66d6429d4372f6a36623c0b08e6cd8fdeb40bc3b967"
+    },
+    "index.manifest.json": {
+      "bytes": 330,
+      "sha256": "fd55e799eac794e51eb6d853fb215be48f4eb9b3b8a8d827f34fdf778863d183"
+    },
+    "index.offline.html": {
+      "bytes": 971,
+      "sha256": "b0a5d443e78f58717adac780bac91c1431bfa3b801c41f4707d507fb5ad2e47f"
+    },
     "index.pck": {
-      "bytes": 64094960,
-      "sha256": "c1d2ffbeb39076073bf9075a9e190e0869c543eeb640be793ff33b3d3ad5a595"
+      "bytes": 64229016,
+      "sha256": "7b26f9c8377479ffc093bb74841c0d76a38cf77b07717622972f156ddb2fa164"
+    },
+    "index.png": {
+      "bytes": 56366,
+      "sha256": "f2bc413de4bfb8a7003e1d157cf3005c29e2b10a79bccbfabb0560d470fefeaa"
+    },
+    "index.service.worker.js": {
+      "bytes": 5831,
+      "sha256": "e6391c851daa92ab286e915c5a22f3db08c2d33e4df7dfb7977171c1ab37b130"
+    },
+    "index.wasm": {
+      "bytes": 37013224,
+      "sha256": "09c67f682ca15f7b8a462870fca21b478ea15f1ee9a1611d174737e5fcc010ce"
     }
-  },
-  "notes": "Latest working tree with save compatibility hardening. Development preview; browser storage differs from native Android."
+  }
 }
