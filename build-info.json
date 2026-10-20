@@ -2,8 +2,8 @@
   "source_commit": "7c639daac0b15df4608781fcc37a032118ba8722",
   "source_branch": "codex/taptap",
   "source_worktree_dirty": true,
-  "release_label": "20261020-taptap-venue-guidance",
-  "built_at": "2026-10-19T16:40:39.500246+00:00",
+  "release_label": "20261020-startup-weather",
+  "built_at": "2026-10-20T05:57:51.321753+00:00",
   "save_version": 26,
   "engine": "Godot 4.6.2 standard / Web threaded",
   "files": {
@@ -12,12 +12,12 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "README.md": {
-      "bytes": 402,
-      "sha256": "75811452beb29267ba557c4a5fdfe808822cfa2626a91271684199eb5fd6ccc9"
+      "bytes": 337,
+      "sha256": "4886dbf558f266dd57c96d1e2556ce6b5b0747c43a8971a3b74e9e91a72fec37"
     },
     "index.html": {
-      "bytes": 5493,
-      "sha256": "20f6308815833e9fc5ab6e458af6d96c0899e7b2ef2d0381ed0a2140242c6536"
+      "bytes": 5925,
+      "sha256": "782e81f12169904437b5436422cd06117f7fd69315796f67a13fb4483d482004"
     },
     "index.js": {
       "bytes": 358439,
@@ -28,12 +28,12 @@
       "sha256": "09c67f682ca15f7b8a462870fca21b478ea15f1ee9a1611d174737e5fcc010ce"
     },
     "index.pck": {
-      "bytes": 64389592,
-      "sha256": "7076418385099fda08d4ed4731f7b1ae9586c32b612ca5a1872bd81ef6a90ecc"
+      "bytes": 64502312,
+      "sha256": "1a64752619e9bc7002f9261d175f0137836dfd401775bec8a08ac58ae238da45"
     },
     "index.png": {
-      "bytes": 56366,
-      "sha256": "f2bc413de4bfb8a7003e1d157cf3005c29e2b10a79bccbfabb0560d470fefeaa"
+      "bytes": 55808,
+      "sha256": "4511ffae53b06cc8af048a17c3c9622fc15cfe5c792f8787148f132f57cf7e14"
     },
     "index.icon.png": {
       "bytes": 439757,
@@ -72,8 +72,16 @@
       "sha256": "b0a5d443e78f58717adac780bac91c1431bfa3b801c41f4707d507fb5ad2e47f"
     },
     "index.service.worker.js": {
-      "bytes": 5831,
-      "sha256": "59dc5518c04aeed3cd58b6de7848446bac4f7897b1ee7d2f9f54abf63b567520"
+      "bytes": 5908,
+      "sha256": "453145ad533d9e8bda6074c544b9887a4414349b68af777248da81d85ec33487"
+    },
+    "startup-weather-rainy.png": {
+      "bytes": 54152,
+      "sha256": "532ea4e124ee879cd4134d5f3186863571af3e1d6ee3058b1415355efa9c57b9"
+    },
+    "startup-weather-snowy.png": {
+      "bytes": 53687,
+      "sha256": "c468b75d3f191cb8ab8f101108c95599f85ad5d38f412001b99b6bf4888319cd"
     }
   }
 }
